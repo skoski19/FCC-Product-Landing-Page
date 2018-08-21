@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+    background: #D5D8DC;
+    font-family: 'Nunito', serif;
+		font-color: black;
+}
+		
+	@media only screen and (max-width: 600px) {
+  div.example {
+    font-size: 14px;
+  }
+}
+
+.people {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	height: 300px;
+	margin-left: 200px;
+	margin-right: 200px;
+
+	
+
+}
+
+.pricing-box{
+	background-color: #81d9d6;
+  margin: 20px;
+  line-height: 1;
+	border: 3px solid  #039b96;
+	flex: 1;
+	
+}
+
+.pricing-box h3{
+	text-align: center;
+	font-size: 25px;
+	
+
+}
+
+.pricing-box p {
+	line-height: 1;
+	padding: 30px;
+	margin: 25px;
+	padding-top: 0px;
+	font-size: 18px;
+  overflow: hidden;
+	
+}
+
+p, h2{
+  margin: 5px 250px 15px 200px;
+	font-size: 168%;
+}
+
+p{
+  margin: 5px 250px 15px 200px;
+	font-size: 130%;
+}
+
+#nav-bar {
+  position: fixed;
+	width:100%;
+	top: 0;
+	height: 100px;
+	right: 0;
+  background-color: black;
+	overflow: hidden;
+	font-color: #04B4AE;
+	text-align:right;
+	z-index: 10;
+}
+
+ul{
+  position: fixed;
+	top: 0;
+	right: 0;
+	list-style-type: none;
+  padding: 0px 50px;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: right;
+		float:right;
+    color: #04B4AE;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+		font-size: 20px;
+	}
+
+li a:hover{
+    background-color: #333;
+}
+
+#logo-img{
+	width: 30px;
+	margin-left: 120px;
+}
+
+.container{
+	padding-top: 90px;
+	z-index: 1;
+}
+
+.video-wrapper {
+    margin: 2rem 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+#footer {
+		position: fixed;
+    background-color: black;
+		left: 0;
+    bottom: 0;
+		padding-top: 20px;
+    width: 100%;
+    color: #04B4AE;
+    height: 50px;
+    text-align: center;
+		line-height: 1.4;
+}
+
+.text-block {
+    position: relative;
+    bottom: 100px;
+    left: 10px;
+    color: black;
+    padding-left: 90px;
+    padding-right: 20px;
+
+	
+}
+
+.button{
+    border: 2px solid  #a1f4df;
+    background-color: #04B4AE;
+		transition: 0.5s
+		display: inline-block;
+		font-size: 1.25em;
+}
+
+.input {
+    border: 2px solid  #a1f4df;
+    background-color: #04B4AE;
+		transition: 0.5s
+		display: inline-block;
+		font-size: 1.25em;
+	style="-moz-box-shadow: 1px 1px 3px 2px #04b4ae;
+  -webkit-box-shadow: 1px 1px 3px 2px #04b4ae;
+  box-shadow:         1px 1px 3px 2px #04b4ae;"
+}
+
+input::placeholder { 
+	color: #A4A4A4; 
+}
+
+.input {
+    border: 2px solid  #04B4AE;
+    background-color: #81d9d6;
+		transition: 0.5s
+		display: inline-block;
+		font-size: 1.25em;
+}
+
+.input:focus, .input:hover, .button:focus, .button:hover {
+    border-color: #000000;
+    outline: none;
+}
